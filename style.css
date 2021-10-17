@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: roboto;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    transition: 300ms;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+
+input {
+    margin: 20px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid white 5px;
+    background-color: black;
+    color: white;  
+}
+
+#calculation-window {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#operations-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#calculate-btn {
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+#result {
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.click-style {
+    background-color: white;
+    color: black; 
+}
